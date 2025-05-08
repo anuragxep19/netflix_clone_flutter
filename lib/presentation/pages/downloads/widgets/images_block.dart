@@ -13,7 +13,7 @@ class ImagesBlock extends StatelessWidget {
       builder: (context, state) {
         return SizedBox(
           child:
-              state.isLoading && state.downloadsImages.isEmpty
+              state.isLoading || state.downloadsImages.isEmpty
                   // Show loader while data is being fetched
                   ? const Center(child: CircularProgressIndicator())
                   : state.downloadsImages[0].posterPath != null
