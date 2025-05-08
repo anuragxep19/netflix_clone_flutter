@@ -10,7 +10,10 @@ class FastLaughPage extends StatefulWidget {
   State<FastLaughPage> createState() => _FastLaughPageState();
 }
 
-class _FastLaughPageState extends State<FastLaughPage> {
+class _FastLaughPageState extends State<FastLaughPage>
+    with AutomaticKeepAliveClientMixin {
+  @override
+  bool get wantKeepAlive => true;
   @override
   void initState() {
     super.initState();
@@ -19,6 +22,7 @@ class _FastLaughPageState extends State<FastLaughPage> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return BlocBuilder<FastLaughBloc, FastLaughState>(
       builder: (context, state) {
         // Show loading spinner while data is being fetched

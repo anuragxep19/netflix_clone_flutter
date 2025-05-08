@@ -16,7 +16,10 @@ class NewAndHotPage extends StatefulWidget {
   State<NewAndHotPage> createState() => _NewAndHotPageState();
 }
 
-class _NewAndHotPageState extends State<NewAndHotPage> {
+class _NewAndHotPageState extends State<NewAndHotPage>
+    with AutomaticKeepAliveClientMixin {
+  @override
+  bool get wantKeepAlive => true;
   @override
   void initState() {
     super.initState();
@@ -25,6 +28,7 @@ class _NewAndHotPageState extends State<NewAndHotPage> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return const DefaultTabController(
       length: 2,
       child: Scaffold(

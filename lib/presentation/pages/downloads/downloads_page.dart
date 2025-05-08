@@ -13,7 +13,10 @@ class DownloadsPage extends StatefulWidget {
   State<DownloadsPage> createState() => _DownloadsPageState();
 }
 
-class _DownloadsPageState extends State<DownloadsPage> {
+class _DownloadsPageState extends State<DownloadsPage>
+    with AutomaticKeepAliveClientMixin {
+  @override
+  bool get wantKeepAlive => true;
   @override
   void initState() {
     super.initState();
@@ -22,6 +25,7 @@ class _DownloadsPageState extends State<DownloadsPage> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return SafeArea(
       child: Scaffold(
         // Custom app bar with title

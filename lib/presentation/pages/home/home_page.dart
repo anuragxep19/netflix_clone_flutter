@@ -18,7 +18,8 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage>
+    with AutomaticKeepAliveClientMixin {
   @override
   void initState() {
     super.initState();
@@ -26,7 +27,10 @@ class _HomePageState extends State<HomePage> {
   }
 
   @override
+  bool get wantKeepAlive => true;
+  @override
   Widget build(BuildContext context) {
+    super.build(context);
     return RefreshIndicator(
       // Pull-to-refresh triggers event and sets refresh flag
       onRefresh: () async {
