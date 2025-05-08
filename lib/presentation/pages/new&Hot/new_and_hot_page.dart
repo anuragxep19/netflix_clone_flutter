@@ -9,8 +9,19 @@ import 'package:netflix_ui/presentation/pages/new&Hot/widgets/coming_soon.dart';
 import 'package:netflix_ui/presentation/pages/new&Hot/widgets/everyones_watching.dart';
 
 /// Main Tab Page: New & Hot section
-class NewAndHotPage extends StatelessWidget {
+class NewAndHotPage extends StatefulWidget {
   const NewAndHotPage({super.key});
+
+  @override
+  State<NewAndHotPage> createState() => _NewAndHotPageState();
+}
+
+class _NewAndHotPageState extends State<NewAndHotPage> {
+  @override
+  void initState() {
+    super.initState();
+    context.read<NewAndHotBloc>().add(const NewAndHotInitialize());
+  }
 
   @override
   Widget build(BuildContext context) {

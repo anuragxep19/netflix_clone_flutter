@@ -16,9 +16,8 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$DownloadsModel {
 
-// ignore: invalid_annotation_target
-@JsonKey(name: "poster_path") String? get posterPath;// ignore: invalid_annotation_target
-@JsonKey(name: "backdrop_path") String? get backdropPath;// ignore: invalid_annotation_target
+@JsonKey(name: "poster_path") String? get posterPath;
+@JsonKey(name: "backdrop_path") String? get backdropPath;
 @JsonKey(name: "title") String? get title;
 /// Create a copy of DownloadsModel
 /// with the given fields replaced by the non-null parameter values.
@@ -88,11 +87,11 @@ class _DownloadsModel implements DownloadsModel {
   const _DownloadsModel({@JsonKey(name: "poster_path") required this.posterPath, @JsonKey(name: "backdrop_path") required this.backdropPath, @JsonKey(name: "title") required this.title});
   factory _DownloadsModel.fromJson(Map<String, dynamic> json) => _$DownloadsModelFromJson(json);
 
-// ignore: invalid_annotation_target
+
 @override@JsonKey(name: "poster_path") final  String? posterPath;
-// ignore: invalid_annotation_target
+
 @override@JsonKey(name: "backdrop_path") final  String? backdropPath;
-// ignore: invalid_annotation_target
+
 @override@JsonKey(name: "title") final  String? title;
 
 /// Create a copy of DownloadsModel

@@ -5,8 +5,19 @@ import 'package:netflix_ui/presentation/pages/search/widgets/idle_list.dart';
 import 'package:netflix_ui/presentation/pages/search/widgets/result_grid.dart';
 import 'package:netflix_ui/presentation/pages/search/widgets/search_bar_tile.dart';
 
-class SearchPage extends StatelessWidget {
+class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
+
+  @override
+  State<SearchPage> createState() => _SearchPageState();
+}
+
+class _SearchPageState extends State<SearchPage> {
+  @override
+  void initState() {
+    super.initState();
+    context.read<SearchBloc>().add(const SearchInitialize());
+  }
 
   @override
   Widget build(BuildContext context) {

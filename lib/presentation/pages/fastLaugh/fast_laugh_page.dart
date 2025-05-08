@@ -3,8 +3,19 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:netflix_ui/presentation/bloc/fastLaugh/fast_laugh_bloc.dart';
 import 'package:netflix_ui/presentation/pages/fastLaugh/widgets/video_list.dart';
 
-class FastLaughPage extends StatelessWidget {
+class FastLaughPage extends StatefulWidget {
   const FastLaughPage({super.key});
+
+  @override
+  State<FastLaughPage> createState() => _FastLaughPageState();
+}
+
+class _FastLaughPageState extends State<FastLaughPage> {
+  @override
+  void initState() {
+    super.initState();
+    context.read<FastLaughBloc>().add(const FastLaughInitialize());
+  }
 
   @override
   Widget build(BuildContext context) {

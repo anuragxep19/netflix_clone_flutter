@@ -26,32 +26,15 @@ class Netflix extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         // Downloads BLoC
-        BlocProvider(
-          create:
-              (context) =>
-                  getIt<DownloadsBloc>()..add(const GetDownloadsImage()),
-        ),
+        BlocProvider(create: (context) => getIt<DownloadsBloc>()),
         // Search BLoC
-        BlocProvider(
-          create:
-              (context) => getIt<SearchBloc>()..add(const SearchInitialize()),
-        ),
+        BlocProvider(create: (context) => getIt<SearchBloc>()),
         // Fast Laugh BLoC
-        BlocProvider(
-          create:
-              (context) =>
-                  getIt<FastLaughBloc>()..add(const FastLaughInitialize()),
-        ),
+        BlocProvider(create: (context) => getIt<FastLaughBloc>()),
         // New & Hot BLoC
-        BlocProvider(
-          create:
-              (context) =>
-                  getIt<NewAndHotBloc>()..add(const NewAndHotInitialize()),
-        ),
+        BlocProvider(create: (context) => getIt<NewAndHotBloc>()),
         // Home BLoC
-        BlocProvider(
-          create: (context) => getIt<HomeBloc>()..add(const HomeInitialize()),
-        ),
+        BlocProvider(create: (context) => getIt<HomeBloc>()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

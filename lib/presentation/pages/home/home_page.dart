@@ -11,8 +11,19 @@ import 'package:netflix_ui/presentation/pages/home/widgets/numbered_horizontal_s
 ValueNotifier<bool> scrollDirectionNotifier = ValueNotifier(true);
 bool refresh = true;
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  void initState() {
+    super.initState();
+    context.read<HomeBloc>().add(const HomeInitialize());
+  }
 
   @override
   Widget build(BuildContext context) {
