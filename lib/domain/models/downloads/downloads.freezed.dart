@@ -16,7 +16,10 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$DownloadsModel {
 
-@JsonKey(name: "poster_path") String? get posterPath;@JsonKey(name: "title") String? get title;
+// ignore: invalid_annotation_target
+@JsonKey(name: "poster_path") String? get posterPath;// ignore: invalid_annotation_target
+@JsonKey(name: "backdrop_path") String? get backdropPath;// ignore: invalid_annotation_target
+@JsonKey(name: "title") String? get title;
 /// Create a copy of DownloadsModel
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -29,16 +32,16 @@ $DownloadsModelCopyWith<DownloadsModel> get copyWith => _$DownloadsModelCopyWith
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is DownloadsModel&&(identical(other.posterPath, posterPath) || other.posterPath == posterPath)&&(identical(other.title, title) || other.title == title));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is DownloadsModel&&(identical(other.posterPath, posterPath) || other.posterPath == posterPath)&&(identical(other.backdropPath, backdropPath) || other.backdropPath == backdropPath)&&(identical(other.title, title) || other.title == title));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,posterPath,title);
+int get hashCode => Object.hash(runtimeType,posterPath,backdropPath,title);
 
 @override
 String toString() {
-  return 'DownloadsModel(posterPath: $posterPath, title: $title)';
+  return 'DownloadsModel(posterPath: $posterPath, backdropPath: $backdropPath, title: $title)';
 }
 
 
@@ -49,7 +52,7 @@ abstract mixin class $DownloadsModelCopyWith<$Res>  {
   factory $DownloadsModelCopyWith(DownloadsModel value, $Res Function(DownloadsModel) _then) = _$DownloadsModelCopyWithImpl;
 @useResult
 $Res call({
-@JsonKey(name: "poster_path") String? posterPath,@JsonKey(name: "title") String? title
+@JsonKey(name: "poster_path") String? posterPath,@JsonKey(name: "backdrop_path") String? backdropPath,@JsonKey(name: "title") String? title
 });
 
 
@@ -66,9 +69,10 @@ class _$DownloadsModelCopyWithImpl<$Res>
 
 /// Create a copy of DownloadsModel
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? posterPath = freezed,Object? title = freezed,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? posterPath = freezed,Object? backdropPath = freezed,Object? title = freezed,}) {
   return _then(_self.copyWith(
 posterPath: freezed == posterPath ? _self.posterPath : posterPath // ignore: cast_nullable_to_non_nullable
+as String?,backdropPath: freezed == backdropPath ? _self.backdropPath : backdropPath // ignore: cast_nullable_to_non_nullable
 as String?,title: freezed == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
 as String?,
   ));
@@ -81,10 +85,14 @@ as String?,
 @JsonSerializable()
 
 class _DownloadsModel implements DownloadsModel {
-  const _DownloadsModel({@JsonKey(name: "poster_path") required this.posterPath, @JsonKey(name: "title") required this.title});
+  const _DownloadsModel({@JsonKey(name: "poster_path") required this.posterPath, @JsonKey(name: "backdrop_path") required this.backdropPath, @JsonKey(name: "title") required this.title});
   factory _DownloadsModel.fromJson(Map<String, dynamic> json) => _$DownloadsModelFromJson(json);
 
+// ignore: invalid_annotation_target
 @override@JsonKey(name: "poster_path") final  String? posterPath;
+// ignore: invalid_annotation_target
+@override@JsonKey(name: "backdrop_path") final  String? backdropPath;
+// ignore: invalid_annotation_target
 @override@JsonKey(name: "title") final  String? title;
 
 /// Create a copy of DownloadsModel
@@ -100,16 +108,16 @@ Map<String, dynamic> toJson() {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _DownloadsModel&&(identical(other.posterPath, posterPath) || other.posterPath == posterPath)&&(identical(other.title, title) || other.title == title));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _DownloadsModel&&(identical(other.posterPath, posterPath) || other.posterPath == posterPath)&&(identical(other.backdropPath, backdropPath) || other.backdropPath == backdropPath)&&(identical(other.title, title) || other.title == title));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,posterPath,title);
+int get hashCode => Object.hash(runtimeType,posterPath,backdropPath,title);
 
 @override
 String toString() {
-  return 'DownloadsModel(posterPath: $posterPath, title: $title)';
+  return 'DownloadsModel(posterPath: $posterPath, backdropPath: $backdropPath, title: $title)';
 }
 
 
@@ -120,7 +128,7 @@ abstract mixin class _$DownloadsModelCopyWith<$Res> implements $DownloadsModelCo
   factory _$DownloadsModelCopyWith(_DownloadsModel value, $Res Function(_DownloadsModel) _then) = __$DownloadsModelCopyWithImpl;
 @override @useResult
 $Res call({
-@JsonKey(name: "poster_path") String? posterPath,@JsonKey(name: "title") String? title
+@JsonKey(name: "poster_path") String? posterPath,@JsonKey(name: "backdrop_path") String? backdropPath,@JsonKey(name: "title") String? title
 });
 
 
@@ -137,9 +145,10 @@ class __$DownloadsModelCopyWithImpl<$Res>
 
 /// Create a copy of DownloadsModel
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? posterPath = freezed,Object? title = freezed,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? posterPath = freezed,Object? backdropPath = freezed,Object? title = freezed,}) {
   return _then(_DownloadsModel(
 posterPath: freezed == posterPath ? _self.posterPath : posterPath // ignore: cast_nullable_to_non_nullable
+as String?,backdropPath: freezed == backdropPath ? _self.backdropPath : backdropPath // ignore: cast_nullable_to_non_nullable
 as String?,title: freezed == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
 as String?,
   ));

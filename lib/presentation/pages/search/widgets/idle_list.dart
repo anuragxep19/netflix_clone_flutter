@@ -47,7 +47,7 @@ class IdleList extends StatelessWidget {
                   final movie = state.idleList[index];
 
                   return IdleItem(
-                    image: '$imageBaseUrl${movie.posterPath}',
+                    image: '$imageBaseUrl${movie.backdropPath}',
                     title: movie.title ?? 'No Title',
                   );
                 },
