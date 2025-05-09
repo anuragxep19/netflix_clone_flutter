@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:netflix_ui/domain/core/di/injectable.dart';
 import 'package:netflix_ui/presentation/bloc/home/home_bloc.dart';
 import 'package:netflix_ui/presentation/bloc/downloads/downloads_bloc.dart';
@@ -13,6 +14,8 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // Set up dependency injection
   configureInjection();
+
+  await dotenv.load(fileName: ".env");
 
   // Start the app
   runApp(const Netflix());

@@ -9,7 +9,7 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
- 
+
   dartz: ^0.10.1
   dio: ^5.8.0+1
   flutter_bloc: ^9.1.0
@@ -42,30 +42,30 @@ flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/icons/logo.png"
-  min_sdk_android: 21 
+  min_sdk_android: 21
 
 flutter_native_splash:
   android_gravity: center
-  color: "#ffffff"  
-  image: assets/icons/launcher_logo.png 
-  color_dark: "#000000"  
+  color: "#ffffff"
+  image: assets/icons/launcher_logo.png
+  color_dark: "#000000"
   image_dark: assets/icons/launcher_logo.png
   android_12:
-    color: "#ffffff"  
+    color: "#ffffff"
     image: assets/icons/launcher_logo.png
-    color_dark: "#000000"  
+    color_dark: "#000000"
     image_dark: assets/icons/launcher_logo.png
 
-  ios: true 
+  ios: true
   web: false
- 
+
 flutter:
 
-  
+
   uses-material-design: true
 
-  
+
   assets:
     - assets/icons/
+    - .env
 
- 
