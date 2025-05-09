@@ -49,11 +49,10 @@ class _VideoListState extends State<VideoList> {
 
     // Select video URL based on index
     final Uri videoUrl = Uri.parse(videos[widget.index % videos.length]);
-
     return Stack(
       children: [
         // Video player in background
-        Player(video: videoUrl, onChanged: (value) {}),
+        Player(video: videoUrl),
 
         // UI overlay on top of the video
         Positioned.fill(
@@ -119,13 +118,6 @@ class _VideoListState extends State<VideoList> {
                     ),
 
                     constHeight10,
-
-                    // Play button
-                    IconText(
-                      icon: Icons.play_arrow,
-                      label: 'Play',
-                      onTap: () {},
-                    ),
                   ],
                 ),
               ],
