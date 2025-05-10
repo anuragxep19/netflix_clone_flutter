@@ -1,43 +1,48 @@
 name: netflix_ui
 description: "A new Flutter project."
-
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
   sdk: ^3.7.2
 
 dependencies:
-
-  dartz: ^0.10.1
-  dio: ^5.8.0+1
-  flutter_bloc: ^9.1.0
-  freezed_annotation: ^3.0.0
-  get_it: ^8.0.3
-  injectable: ^2.5.0
-  intl: ^0.20.2
-  json_annotation: ^4.9.0
-  json_serializable: ^6.9.4
-  share_plus: ^10.1.4
-  video_player: ^2.9.5
-  cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+
+  # Core
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^5.2.1
   bordered_text: ^2.0.0
 
+  # State Management & DI
+  flutter_bloc: ^9.1.0
+  get_it: ^8.0.3
+  injectable: ^2.5.0
+
+  # Functional & Serialization
+  dartz: ^0.10.1
+  dio: ^5.8.0+1
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+
+  # Media & Sharing
+  video_player: ^2.9.5
+  share_plus: ^10.1.4
+
+  # Dev Tools
   flutter_native_splash: ^2.4.5
-  flutter_dotenv: ^5.2.1
+  flutter_launcher_icons: ^0.14.3
+  flutter_oss_licenses: ^3.0.4
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
   build_runner: ^2.4.15
   freezed: ^3.0.6
   injectable_generator: ^2.7.0
-  flutter_test:
-    sdk: flutter
-  flutter_launcher_icons: "^0.14.3"
-  flutter_lints: ^5.0.0
-  flutter_oss_licenses: ^3.0.4
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -48,27 +53,21 @@ flutter_launcher_icons:
 flutter_native_splash:
   android_gravity: center
   color: "#ffffff"
-  image: assets/icons/launcher_logo.png
   color_dark: "#000000"
+  image: assets/icons/launcher_logo.png
   image_dark: assets/icons/launcher_logo.png
   android_12:
     color: "#ffffff"
-    image: assets/icons/launcher_logo.png
     color_dark: "#000000"
+    image: assets/icons/launcher_logo.png
     image_dark: assets/icons/launcher_logo.png
-
   ios: true
   web: false
 
 flutter:
-
-
   uses-material-design: true
-
-
   assets:
+    - .env
     - assets/icons/
     - assets/licenses/
     - assets/readme/
-    - .env
-
