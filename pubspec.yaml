@@ -35,6 +35,7 @@ dependencies:
   flutter_native_splash: ^2.4.5
   flutter_launcher_icons: ^0.14.3
   flutter_oss_licenses: ^3.0.4
+  bloc: ^9.0.0
 
 dev_dependencies:
   flutter_test:
