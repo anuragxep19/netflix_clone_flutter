@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/core/strings.dart';
-import 'package:netflix_ui/presentation/bloc/search/search_bloc.dart';
-import 'package:netflix_ui/presentation/pages/search/widgets/heading.dart';
-import 'package:netflix_ui/presentation/pages/search/widgets/result_item.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/core/strings.dart';
+import 'package:netflix_clone/presentation/bloc/search/search_bloc.dart';
+import 'package:netflix_clone/presentation/pages/search/widgets/heading.dart';
+import 'package:netflix_clone/presentation/pages/search/widgets/result_item.dart';
 
 class ResultGrid extends StatelessWidget {
   const ResultGrid({super.key});

@@ -11,31 +11,31 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:get_it/get_it.dart' as _i174;
 import 'package:injectable/injectable.dart' as _i526;
-import 'package:netflix_ui/data/dataSources/downloads.dart' as _i99;
-import 'package:netflix_ui/data/dataSources/new_and_hot.dart' as _i708;
-import 'package:netflix_ui/data/dataSources/search.dart' as _i388;
-import 'package:netflix_ui/data/repository/downloads_repo_impl.dart' as _i807;
-import 'package:netflix_ui/data/repository/new_and_hot_repository_impl.dart'
+import 'package:netflix_clone/data/dataSources/downloads.dart' as _i99;
+import 'package:netflix_clone/data/dataSources/new_and_hot.dart' as _i708;
+import 'package:netflix_clone/data/dataSources/search.dart' as _i388;
+import 'package:netflix_clone/data/repository/downloads_repo_impl.dart' as _i807;
+import 'package:netflix_clone/data/repository/new_and_hot_repository_impl.dart'
     as _i390;
-import 'package:netflix_ui/data/repository/search_repo.impl.dart' as _i323;
-import 'package:netflix_ui/domain/repository/downloads_repository.dart'
+import 'package:netflix_clone/data/repository/search_repo.impl.dart' as _i323;
+import 'package:netflix_clone/domain/repository/downloads_repository.dart'
     as _i920;
-import 'package:netflix_ui/domain/repository/new_and_hot_repository.dart'
+import 'package:netflix_clone/domain/repository/new_and_hot_repository.dart'
     as _i543;
-import 'package:netflix_ui/domain/repository/search_repository.dart' as _i86;
-import 'package:netflix_ui/domain/usecases/coming_soon_usescase.dart' as _i626;
-import 'package:netflix_ui/domain/usecases/downloads_use_case.dart' as _i403;
-import 'package:netflix_ui/domain/usecases/everyones_watching_usescase.dart'
+import 'package:netflix_clone/domain/repository/search_repository.dart' as _i86;
+import 'package:netflix_clone/domain/usecases/coming_soon_usescase.dart' as _i626;
+import 'package:netflix_clone/domain/usecases/downloads_use_case.dart' as _i403;
+import 'package:netflix_clone/domain/usecases/everyones_watching_usescase.dart'
     as _i750;
-import 'package:netflix_ui/domain/usecases/search_use_case.dart' as _i55;
-import 'package:netflix_ui/presentation/bloc/downloads/downloads_bloc.dart'
+import 'package:netflix_clone/domain/usecases/search_use_case.dart' as _i55;
+import 'package:netflix_clone/presentation/bloc/downloads/downloads_bloc.dart'
     as _i693;
-import 'package:netflix_ui/presentation/bloc/fastLaugh/fast_laugh_bloc.dart'
+import 'package:netflix_clone/presentation/bloc/fastLaugh/fast_laugh_bloc.dart'
     as _i704;
-import 'package:netflix_ui/presentation/bloc/home/home_bloc.dart' as _i937;
-import 'package:netflix_ui/presentation/bloc/newAndHot/new_and_hot_bloc.dart'
+import 'package:netflix_clone/presentation/bloc/home/home_bloc.dart' as _i937;
+import 'package:netflix_clone/presentation/bloc/newAndHot/new_and_hot_bloc.dart'
     as _i843;
-import 'package:netflix_ui/presentation/bloc/search/search_bloc.dart' as _i424;
+import 'package:netflix_clone/presentation/bloc/search/search_bloc.dart' as _i424;
 
 extension GetItInjectableX on _i174.GetIt {
   // initializes the registration of main-scope dependencies inside of GetIt

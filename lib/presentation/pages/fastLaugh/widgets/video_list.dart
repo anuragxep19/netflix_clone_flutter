@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/core/strings.dart';
-import 'package:netflix_ui/domain/models/downloads/downloads.dart';
-import 'package:netflix_ui/presentation/bloc/fastLaugh/fast_laugh_bloc.dart';
-import 'package:netflix_ui/presentation/pages/fastLaugh/widgets/icon_text.dart';
-import 'package:netflix_ui/presentation/pages/fastLaugh/widgets/player.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/core/strings.dart';
+import 'package:netflix_clone/domain/models/downloads/downloads.dart';
+import 'package:netflix_clone/presentation/bloc/fastLaugh/fast_laugh_bloc.dart';
+import 'package:netflix_clone/presentation/pages/fastLaugh/widgets/icon_text.dart';
+import 'package:netflix_clone/presentation/pages/fastLaugh/widgets/player.dart';
 import 'package:share_plus/share_plus.dart';
 
 ValueNotifier<Set<int>> likeVideoNotifier = ValueNotifier({});

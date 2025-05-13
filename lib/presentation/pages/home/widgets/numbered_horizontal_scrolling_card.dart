@@ -1,9 +1,9 @@
 import 'package:bordered_text/bordered_text.dart';
 import 'package:flutter/material.dart';
-import 'package:netflix_ui/Presentation/pages/Search/Widgets/heading.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/core/strings.dart';
-import 'package:netflix_ui/domain/models/new_and_hot/everyones_watching_model/everyones_watching_model.dart';
+import 'package:netflix_clone/Presentation/pages/Search/Widgets/heading.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/core/strings.dart';
+import 'package:netflix_clone/domain/models/new_and_hot/everyones_watching_model/everyones_watching_model.dart';
 
 class NumberedHorizontalScrollingCard extends StatelessWidget {
   final String title;

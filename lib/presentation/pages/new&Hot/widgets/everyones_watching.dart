@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/presentation/pages/fastLaugh/widgets/icon_text.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/presentation/pages/fastLaugh/widgets/icon_text.dart';
 
 class EveryonesWatching extends StatelessWidget {
   final String image;

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/presentation/bloc/home/home_bloc.dart';
-import 'package:netflix_ui/presentation/pages/home/widgets/app_bar_home.dart';
-import 'package:netflix_ui/presentation/pages/home/widgets/horizontal_scrolling_card.dart';
-import 'package:netflix_ui/presentation/pages/home/widgets/large_card.dart';
-import 'package:netflix_ui/presentation/pages/home/widgets/numbered_horizontal_scrolling_card.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/presentation/bloc/home/home_bloc.dart';
+import 'package:netflix_clone/presentation/pages/home/widgets/app_bar_home.dart';
+import 'package:netflix_clone/presentation/pages/home/widgets/horizontal_scrolling_card.dart';
+import 'package:netflix_clone/presentation/pages/home/widgets/large_card.dart';
+import 'package:netflix_clone/presentation/pages/home/widgets/numbered_horizontal_scrolling_card.dart';
 
 ValueNotifier<bool> scrollDirectionNotifier = ValueNotifier(true);
 bool refresh = true;

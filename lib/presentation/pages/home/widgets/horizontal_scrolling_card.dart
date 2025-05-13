@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_ui/Presentation/pages/Search/Widgets/heading.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/core/strings.dart';
-import 'package:netflix_ui/domain/models/new_and_hot/coming_soon_model/coming_soon_model.dart';
+import 'package:netflix_clone/Presentation/pages/Search/Widgets/heading.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/core/strings.dart';
+import 'package:netflix_clone/domain/models/new_and_hot/coming_soon_model/coming_soon_model.dart';
 
 class HorizontalScrollingCard extends StatelessWidget {
   final String title;

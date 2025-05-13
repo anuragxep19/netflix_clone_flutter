@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:netflix_ui/domain/core/di/injectable.dart';
-import 'package:netflix_ui/presentation/bloc/home/home_bloc.dart';
-import 'package:netflix_ui/presentation/bloc/downloads/downloads_bloc.dart';
-import 'package:netflix_ui/presentation/bloc/fastLaugh/fast_laugh_bloc.dart';
-import 'package:netflix_ui/presentation/bloc/newAndHot/new_and_hot_bloc.dart';
-import 'package:netflix_ui/presentation/bloc/search/search_bloc.dart';
-import 'package:netflix_ui/presentation/pages/mainPage/main_page.dart';
+import 'package:netflix_clone/domain/core/di/injectable.dart';
+import 'package:netflix_clone/presentation/bloc/home/home_bloc.dart';
+import 'package:netflix_clone/presentation/bloc/downloads/downloads_bloc.dart';
+import 'package:netflix_clone/presentation/bloc/fastLaugh/fast_laugh_bloc.dart';
+import 'package:netflix_clone/presentation/bloc/newAndHot/new_and_hot_bloc.dart';
+import 'package:netflix_clone/presentation/bloc/search/search_bloc.dart';
+import 'package:netflix_clone/presentation/pages/mainPage/main_page.dart';
 
 Future<void> main() async {
   // Ensures binding is initialized before executing async code

@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
-import 'package:netflix_ui/domain/core/main_failure.dart';
-import 'package:netflix_ui/domain/models/new_and_hot/coming_soon_model/coming_soon_model.dart';
-import 'package:netflix_ui/domain/models/new_and_hot/everyones_watching_model/everyones_watching_model.dart';
-import 'package:netflix_ui/domain/usecases/coming_soon_usescase.dart';
-import 'package:netflix_ui/domain/usecases/everyones_watching_usescase.dart';
+import 'package:netflix_clone/domain/core/main_failure.dart';
+import 'package:netflix_clone/domain/models/new_and_hot/coming_soon_model/coming_soon_model.dart';
+import 'package:netflix_clone/domain/models/new_and_hot/everyones_watching_model/everyones_watching_model.dart';
+import 'package:netflix_clone/domain/usecases/coming_soon_usescase.dart';
+import 'package:netflix_clone/domain/usecases/everyones_watching_usescase.dart';
 
 part 'new_and_hot_event.dart';
 part 'new_and_hot_state.dart';

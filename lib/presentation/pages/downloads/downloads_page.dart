@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix_ui/presentation/bloc/downloads/downloads_bloc.dart';
-import 'package:netflix_ui/presentation/pages/downloads/Widgets/button.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/presentation/pages/downloads/Widgets/images_block.dart';
-import 'package:netflix_ui/presentation/pages/MainPage/widgets/app_bar_custom.dart';
+import 'package:netflix_clone/presentation/bloc/downloads/downloads_bloc.dart';
+import 'package:netflix_clone/presentation/pages/downloads/Widgets/button.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/presentation/pages/downloads/Widgets/images_block.dart';
+import 'package:netflix_clone/presentation/pages/MainPage/widgets/app_bar_custom.dart';
 
 class DownloadsPage extends StatefulWidget {
   const DownloadsPage({super.key});

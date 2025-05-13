@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/core/strings.dart';
-import 'package:netflix_ui/presentation/bloc/newAndHot/new_and_hot_bloc.dart';
-import 'package:netflix_ui/presentation/pages/new&Hot/widgets/app_bar_widget.dart';
-import 'package:netflix_ui/presentation/pages/new&Hot/widgets/coming_soon.dart';
-import 'package:netflix_ui/presentation/pages/new&Hot/widgets/everyones_watching.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/core/strings.dart';
+import 'package:netflix_clone/presentation/bloc/newAndHot/new_and_hot_bloc.dart';
+import 'package:netflix_clone/presentation/pages/new&Hot/widgets/app_bar_widget.dart';
+import 'package:netflix_clone/presentation/pages/new&Hot/widgets/coming_soon.dart';
+import 'package:netflix_clone/presentation/pages/new&Hot/widgets/everyones_watching.dart';
 
 /// Main Tab Page: New & Hot section
 class NewAndHotPage extends StatefulWidget {

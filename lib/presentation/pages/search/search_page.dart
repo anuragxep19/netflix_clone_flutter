@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix_ui/presentation/bloc/search/search_bloc.dart';
-import 'package:netflix_ui/presentation/pages/search/widgets/idle_list.dart';
-import 'package:netflix_ui/presentation/pages/search/widgets/result_grid.dart';
-import 'package:netflix_ui/presentation/pages/search/widgets/search_bar_tile.dart';
+import 'package:netflix_clone/presentation/bloc/search/search_bloc.dart';
+import 'package:netflix_clone/presentation/pages/search/widgets/idle_list.dart';
+import 'package:netflix_clone/presentation/pages/search/widgets/result_grid.dart';
+import 'package:netflix_clone/presentation/pages/search/widgets/search_bar_tile.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});

@@ -1,9 +1,9 @@
-# Netflix_UI
+# Netflix_Clone
 
 ![Flutter](https://img.shields.io/badge/flutter-3.19.2-blue.svg)
 [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
 
-Netflix_UI is a Flutter-based recreation of Netflix’s core interface experience.
+Netflix_Clone is a Flutter-based recreation of Netflix’s core interface experience.
 This project was built to explore UI layout, screen transitions, and app structure using clean architecture principles.
 
 ---
@@ -27,8 +27,8 @@ This project was built to explore UI layout, screen transitions, and app structu
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/anuragxep19/netflix_ui-flutter.git
-   cd netflix_ui-flutter
+   git clone https://github.com/anuragxep19/netflix_clone_flutter.git
+   cd netflix_clone_flutter
    ```
 
 1. **Install dependencies**:
@@ -71,7 +71,7 @@ This project was built to explore UI layout, screen transitions, and app structu
 
 ```tree
 
-Netflix_UI/
+Netflix_Clone/
 ├── lib/
 │   ├── core/                       # Common helpers, constants, themes
 │   ├── data/                       # API services and repositories

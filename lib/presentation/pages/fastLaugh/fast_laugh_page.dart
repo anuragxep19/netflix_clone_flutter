@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix_ui/presentation/bloc/fastLaugh/fast_laugh_bloc.dart';
-import 'package:netflix_ui/presentation/pages/fastLaugh/widgets/video_list.dart';
+import 'package:netflix_clone/presentation/bloc/fastLaugh/fast_laugh_bloc.dart';
+import 'package:netflix_clone/presentation/pages/fastLaugh/widgets/video_list.dart';
 
 class FastLaughPage extends StatefulWidget {
   const FastLaughPage({super.key});

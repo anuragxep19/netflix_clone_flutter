@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_ui/core/constants.dart';
-import 'package:netflix_ui/core/strings.dart';
-import 'package:netflix_ui/presentation/pages/fastLaugh/widgets/icon_text.dart';
-import 'package:netflix_ui/presentation/pages/home/widgets/icon_text_button.dart';
+import 'package:netflix_clone/core/constants.dart';
+import 'package:netflix_clone/core/strings.dart';
+import 'package:netflix_clone/presentation/pages/fastLaugh/widgets/icon_text.dart';
+import 'package:netflix_clone/presentation/pages/home/widgets/icon_text_button.dart';
 
 class LargeCard extends StatelessWidget {
   final String image;

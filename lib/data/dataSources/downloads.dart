@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
-import 'package:netflix_ui/domain/core/api.dart';
+import 'package:netflix_clone/domain/core/api.dart';
 
 abstract class DownloadsRemoteDataSource {
   Future<Response<dynamic>> getDownloadsApi();

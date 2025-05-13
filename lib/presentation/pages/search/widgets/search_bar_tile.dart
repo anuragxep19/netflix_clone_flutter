@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix_ui/domain/core/debounce.dart';
-import 'package:netflix_ui/presentation/bloc/search/search_bloc.dart';
-import 'package:netflix_ui/presentation/pages/search/constants.dart';
+import 'package:netflix_clone/domain/core/debounce.dart';
+import 'package:netflix_clone/presentation/bloc/search/search_bloc.dart';
+import 'package:netflix_clone/presentation/pages/search/constants.dart';
 
 // Notifier to track if the search bar is tapped
 final searchBarTapNotifier = ValueNotifier(false);

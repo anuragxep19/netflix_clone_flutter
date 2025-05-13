@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
-import 'package:netflix_ui/domain/core/main_failure.dart';
-import 'package:netflix_ui/domain/models/downloads/downloads.dart';
-import 'package:netflix_ui/domain/usecases/downloads_use_case.dart';
+import 'package:netflix_clone/domain/core/main_failure.dart';
+import 'package:netflix_clone/domain/models/downloads/downloads.dart';
+import 'package:netflix_clone/domain/usecases/downloads_use_case.dart';
 
 part 'fast_laugh_event.dart';
 part 'fast_laugh_state.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_ui/core/constants.dart';
+import 'package:netflix_clone/core/constants.dart';
 
 class IdleItem extends StatelessWidget {
   final String image;

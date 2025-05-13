@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_ui/presentation/pages/downloads/downloads_page.dart';
-import 'package:netflix_ui/presentation/pages/fastLaugh/fast_laugh_page.dart';
-import 'package:netflix_ui/presentation/pages/home/home_page.dart';
-import 'package:netflix_ui/presentation/pages/new&Hot/new_and_hot_page.dart';
-import 'package:netflix_ui/presentation/pages/Search/search_page.dart';
+import 'package:netflix_clone/presentation/pages/downloads/downloads_page.dart';
+import 'package:netflix_clone/presentation/pages/fastLaugh/fast_laugh_page.dart';
+import 'package:netflix_clone/presentation/pages/home/home_page.dart';
+import 'package:netflix_clone/presentation/pages/new&Hot/new_and_hot_page.dart';
+import 'package:netflix_clone/presentation/pages/Search/search_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});

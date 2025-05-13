@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-import 'package:netflix_ui/presentation/pages/downloads/constants.dart';
+import 'package:netflix_clone/presentation/pages/downloads/constants.dart';
 
 class ImageRotation extends StatelessWidget {
   final double angle; // Rotation angle in degrees
