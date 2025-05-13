@@ -27,7 +27,7 @@ This project was built to explore UI layout, screen transitions, and app structu
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/anuragep19/netflix_ui-flutter.git
+   git clone https://github.com/anuragxep19/netflix_ui-flutter.git
    cd netflix_ui-flutter
    ```
 
@@ -73,8 +73,8 @@ This project was built to explore UI layout, screen transitions, and app structu
 
 Netflix_UI/
 ├── lib/
-│   ├── core/                        # Common helpers, constants, themes
-│   ├── data/                        # API services and repositories
+│   ├── core/                       # Common helpers, constants, themes
+│   ├── data/                       # API services and repositories
 │   │   ├── dataSources/            # Remote sources (TMDB APIs)
 │   │   └── repository/             # Data abstraction layer
 │   ├── domain/
@@ -98,7 +98,7 @@ Netflix_UI/
 │
 ├── assets/
 │   ├── icons/                      # Custom icons
-│   ├── licenses/                # OSS license data
+│   ├── licenses/                   # OSS license data
 │   └── readme/                     # Screenshots and assets for documentation
 │
 ├── .env.example                    # Sample environment variables (no secrets)
@@ -197,6 +197,6 @@ This project is based on a tutorial series that is no longer fully available. I 
 ## Author
 
 **Anurag E P**  
-[GitHub: @anuragep19](https://github.com/anuragep19)  
+[GitHub: @anuragxep19](https://github.com/anuragxep19)
 
 ---
